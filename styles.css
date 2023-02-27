@@ -35,18 +35,52 @@ a, a:visited {
 }
 
 a.headerLink {
-	background-color:#6d32c2;
+	background-color:black;
 	color:white;
 	padding: 1em;
 	border-style: solid;
-	border-color: #6d32c2;
+	border-color: black;
 	border-radius: 1.2em;
 	font-size: 1.1em;
 	transition: 0.4s;
 }
 
 a.headerLink:hover {
-	background-color:#150a26;
-	color:#61892F;
-	border-color:#150a26
+	background-color:white;
+	color:black;
+	border-color:white;
+}
+
+/* Main */
+
+div.mainCrt1 {
+	display:flex;
+	justify-content:space-around;
+	align-items:center;
+	padding: 1em;
+	background-color:black;
+	color:white;
+}
+
+div.mainCrt2 {
+	display:flex;
+	flex-direction:row-reverse;
+	justify-content:space-around;
+	align-items:center;
+	padding: 1em;
+	background-color:#86C232;
+	color:black;
+}
 	
+/* Footer */
+
+footer {
+	background-color:#474B4f;
+	color:white;
+	text-align:center;
+	padding:1em;
+}
+
+a.footerLink {
+	color:white;
+}
