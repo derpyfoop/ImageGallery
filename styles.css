@@ -1,0 +1,52 @@
+/* CSS reset */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: Helvetica, Sans-Serif;
+}
+
+/* Header */
+
+div.headerCrt {
+	display: flex;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	padding-left: 1em;
+	padding-right: 3em;
+	justify-content:space-between;
+	align-items:center;
+	background-color: #86C232;
+}
+
+img.icon {
+	display:flex;
+}
+
+ul.headerLinks {
+	display: flex;
+	gap: 10em;
+	list-style: none;
+}
+
+a, a:visited {
+	 text-decoration: none;
+}
+
+a.headerLink {
+	background-color:#6d32c2;
+	color:white;
+	padding: 1em;
+	border-style: solid;
+	border-color: #6d32c2;
+	border-radius: 1.2em;
+	font-size: 1.1em;
+	transition: 0.4s;
+}
+
+a.headerLink:hover {
+	background-color:#150a26;
+	color:#61892F;
+	border-color:#150a26
+	
